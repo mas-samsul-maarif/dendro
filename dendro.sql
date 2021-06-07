@@ -47,6 +47,9 @@ INSERT INTO `hama` (`no`, `hama`, `solusi`) VALUES
 (7, 'Kutu', 'Masukkan spons ke dalam wadah berisi air sabun cair dan gosokkan spons ke daun tanaman yang dihinggapi kutu putih. Lakukan seperti mencuci piring, tapi dengan hati-hati dan perlahan. - Gosok seterusnya pada bagian daun yang sudah terlalu banyak hama kutu putihnya sampai menghilang.'),
 (8, 'Kelelawar', 'Menaruh Terasi di Dekat Kelelawar Bertengger,Bau terasi yang menyengat ini juga yang membuat kelelawar memilih untuk minggat setelah mencium baunya. '),
 (9, 'Siput', 'Siram tanaman saat pagi dan sore hari.');
+(10, 'Lalat Buah', 'Semprotkan insektisida ke tanaman dan memasang perangkap sex pheromon.');
+(11, 'Gangsir', 'Temukan sarangnya, lalu siramlah larutan insektisida ke dalam liang tersebut supaya gangsir mati.');
+(12, 'Artona', 'Jika menemukan Artona, kamu bisa langsung memotong daun yang terserang agar ulat dan kepompongnya langsung terbuang.');
 
 --
 -- Indexes for dumped tables
