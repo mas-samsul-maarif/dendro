@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 07 Jun 2021 pada 07.40
--- Versi server: 10.4.17-MariaDB
--- Versi PHP: 8.0.2
+-- Generation Time: Jun 07, 2021 at 08:03 AM
+-- Server version: 10.4.17-MariaDB
+-- PHP Version: 8.0.2
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -24,7 +24,7 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `hama`
+-- Table structure for table `hama`
 --
 
 CREATE TABLE `hama` (
@@ -34,7 +34,7 @@ CREATE TABLE `hama` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data untuk tabel `hama`
+-- Dumping data for table `hama`
 --
 
 INSERT INTO `hama` (`no`, `hama`, `solusi`) VALUES
@@ -46,27 +46,30 @@ INSERT INTO `hama` (`no`, `hama`, `solusi`) VALUES
 (6, 'Penyakit Mosaik', 'Gunakan varietas yang tahan penyakit atau toleran. Gunakan uap-pasteurisasi untuk membersihkan tanah dari virus. Jangan menanam di lahan yang sebelumnya terinfeksi oleh virus. Optimalkan penanganan tanaman dengan mencuci tangan, memakai sarung tangan dan mendesinfeksi peralatan kerja Anda.'),
 (7, 'Kutu', 'Masukkan spons ke dalam wadah berisi air sabun cair dan gosokkan spons ke daun tanaman yang dihinggapi kutu putih. Lakukan seperti mencuci piring, tapi dengan hati-hati dan perlahan. - Gosok seterusnya pada bagian daun yang sudah terlalu banyak hama kutu putihnya sampai menghilang.'),
 (8, 'Kelelawar', 'Menaruh Terasi di Dekat Kelelawar Bertengger,Bau terasi yang menyengat ini juga yang membuat kelelawar memilih untuk minggat setelah mencium baunya. '),
-(9, 'Siput', 'Siram tanaman saat pagi dan sore hari.');
+(9, 'Siput', 'Siram tanaman saat pagi dan sore hari.'),
+(10, 'Lalat Buah', 'Semprotkan insektisida ke tanaman dan memasang perangkap sex pheromon.'),
+(11, 'Gangsir', 'Temukan sarangnya, lalu siramlah larutan insektisida ke dalam liang tersebut supaya gangsir mati.'),
+(12, 'Artona', 'Setelah menemukan Artona tersebut, kamu bisa langsung memotong daun yang terserang agar ulat dan kepompongnya langsung terbuang.');
 
 --
 -- Indexes for dumped tables
 --
 
 --
--- Indeks untuk tabel `hama`
+-- Indexes for table `hama`
 --
 ALTER TABLE `hama`
   ADD PRIMARY KEY (`no`);
 
 --
--- AUTO_INCREMENT untuk tabel yang dibuang
+-- AUTO_INCREMENT for dumped tables
 --
 
 --
--- AUTO_INCREMENT untuk tabel `hama`
+-- AUTO_INCREMENT for table `hama`
 --
 ALTER TABLE `hama`
-  MODIFY `no` int(18) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `no` int(18) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
