@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 07, 2021 at 08:03 AM
+-- Generation Time: Jun 24, 2021 at 07:20 AM
 -- Server version: 10.4.17-MariaDB
 -- PHP Version: 8.0.2
 
@@ -49,7 +49,9 @@ INSERT INTO `hama` (`no`, `hama`, `solusi`) VALUES
 (9, 'Siput', 'Siram tanaman saat pagi dan sore hari.'),
 (10, 'Lalat Buah', 'Semprotkan insektisida ke tanaman dan memasang perangkap sex pheromon.'),
 (11, 'Gangsir', 'Temukan sarangnya, lalu siramlah larutan insektisida ke dalam liang tersebut supaya gangsir mati.'),
-(12, 'Artona', 'Setelah menemukan Artona tersebut, kamu bisa langsung memotong daun yang terserang agar ulat dan kepompongnya langsung terbuang.');
+(12, 'Artona', 'Setelah menemukan Artona tersebut, kamu bisa langsung memotong daun yang terserang agar ulat dan kepompongnya langsung terbuang.'),
+(13, 'Contoh Hama', 'Contoh Solusi'),
+(15, 'Contoh2', 'Contoh2');
 
 --
 -- Indexes for dumped tables
@@ -69,7 +71,7 @@ ALTER TABLE `hama`
 -- AUTO_INCREMENT for table `hama`
 --
 ALTER TABLE `hama`
-  MODIFY `no` int(18) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `no` int(18) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
